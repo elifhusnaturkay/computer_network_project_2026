@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import protocol; print\\(''protocol.py OK''\\)\")",
+      "Bash(python3 -c \"import ast, sys; ast.parse\\(open\\(''server.py''\\).read\\(\\)\\); print\\(''server.py syntax OK''\\)\")",
+      "Bash(python3 -c \"import ast, sys; ast.parse\\(open\\(''client.py''\\).read\\(\\)\\); print\\(''client.py syntax OK''\\)\")",
+      "Bash(python3 -c \"import ast; ast.parse\\(open\\(''server.py''\\).read\\(\\)\\); print\\(''server.py syntax OK''\\)\")",
+      "Bash(python3 -c \"import ast; ast.parse\\(open\\(''client.py''\\).read\\(\\)\\); print\\(''client.py syntax OK''\\)\")"
+    ]
+  }
+}
